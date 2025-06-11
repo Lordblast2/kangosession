@@ -77,28 +77,28 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "KANGO-MD~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there KANGO MD User! 👋🏻* 
+                        let desc = `*Hello there CHRISSPARK XMD User! 👋🏻* 
 
 > Do not share your session id with anyone.
 
- *Thanks for using KANGO-MD 🚩* 
+ *Thanks for using CHRISSPARK-XMD 👌* 
 
 > Join WhatsApp Channel :- ⤵️
  
-https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E
+https://whatsapp.com/channel/0029Vb5qc6N2JI8E3cVBv0t
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/OfficialHectorManuel/Kango-MD
+https://github.com/Xchristech/CHRISSPARK-XMD
 
-> *© Powered BY Hector  🖤*`; 
+> *© Powered BY Chris 🤘*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "JawadTechX",
 thumbnailUrl: "https://i.imgur.com/GVW7aoD.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E",
+sourceUrl: "https://whatsapp.com/channel/0029Vb5qc6N2JI8E3cVBv0t",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -107,14 +107,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploy KANGO-MD*\n\n ◦ *Github:* https://github.com/OfficialHectorManuel/Kango-MD`;
+                            let desc = `*Don't Share with anyone this code use for deploy CHRISSPARK-XMD*\n\n ◦ *Github:* https://github.com/Xchristech/CHRISSPARK-XMD`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "KANGO-MD",
 thumbnailUrl: "https://i.imgur.com/GVW7aoD.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E",
+sourceUrl: "https://whatsapp.com/channel/0029Vb5qc6N2JI8E3cVBv0t",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
